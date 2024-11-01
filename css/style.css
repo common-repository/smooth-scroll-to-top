@@ -1,0 +1,29 @@
+a#scroll-to-top {
+	
+	/* Background image, replace in images folder */
+	background: url(../images/scroll-img.png) no-repeat center center;
+	
+	/* Match to background image size */
+	width: 35px;
+	height: 35px;
+	
+	/* Postion on the page */
+	position: fixed;	
+	right: 30px;
+	bottom: 30px;
+	
+	/* Hide link text */
+	text-indent: -9999px;
+	font-size: 0;
+	
+	/* Other */
+	cursor: pointer;	
+	outline: 0;
+	
+}
+::-webkit-scrollbar {width: 8px; height:8px; }
+::-webkit-scrollbar-track {background: #FFFFFF;-webkit-box-shadow: inset 1px 1px 2px #E0E0E0;border: 1px solid #D8D8D8;}
+::-webkit-scrollbar-thumb {background: #ce2222;-webkit-box-shadow: inset 1px 1px 2px rgba(155, 155, 155, 0.4);}
+::-webkit-scrollbar-thumb:hover {-webkit-box-shadow: inset 1px 1px 10px rgba(0,0,0,0.3);}
+::-webkit-scrollbar-thumb:active {background: #ce2222;-webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);}
+
